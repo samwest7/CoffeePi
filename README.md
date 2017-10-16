@@ -5,6 +5,7 @@ The raspberry Pi will be connected to the coffee machine and to a monitor beside
 The monitor should display the index.html file in this repo. 
 
 Future Updates:
+ 
  Software:
   - Automatic shut off after X hours.
   - Show information based on the state of the coffee machine
