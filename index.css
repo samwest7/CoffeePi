@@ -1,0 +1,25 @@
+body {
+    background-color: 800020; /*Burgundy*/
+}
+
+h1, h2 {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 30;
+  color: white;
+}
+
+img.menu_links{
+  cursor: pointer;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+
+}
+div.cofImg{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}

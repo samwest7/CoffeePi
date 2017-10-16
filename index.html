@@ -1,0 +1,75 @@
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<html>
+<head>
+<script type="text/javascript">
+    <!--
+    function updateTime() {
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+        var seconds = currentTime.getSeconds();
+        if (minutes < 10){
+            minutes = "0" + minutes;
+        }
+        if (seconds < 10){
+            seconds = "0" + seconds;
+        }
+        var temp = "";
+        if(hours > 11){
+            temp+="PM";
+        } else {
+            temp+="AM"
+        }
+        if(hours > 12){
+          hours = hours-12;
+        }
+        var v = hours + ":" + minutes + ":" + seconds + " " + temp;
+
+        setTimeout("updateTime()",1000);
+        document.getElementById('time').innerHTML=v;
+    }
+    updateTime();
+
+    function updateCoffee() {
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+        var seconds = currentTime.getSeconds();
+        if (minutes < 10){
+            minutes = "0" + minutes;
+        }
+        if (seconds < 10){
+            seconds = "0" + seconds;
+        }
+        var temp = "";
+        if(hours > 11){
+            temp+="PM";
+        } else {
+            temp+="AM"
+        }
+        if(hours > 12){
+          hours = hours-12;
+        }
+        var v = hours + ":" + minutes + ":" + seconds + " " + temp;
+
+        setTimeout("updateTime()",1000);
+        document.getElementById('coffee').innerHTML=v;
+    }
+    //updateCoffee();
+    //-->
+</script>
+</head>
+<body>
+    <h1>Current Time: <span id="time" /></h1>
+    <h2>Coffee was brewed at: <sopan id="coffee" /></h2>
+    <div class="cofImg">
+      <img class="menu_links" src="brew_coffee.png"
+        alt="Brew Coffee"
+        style="width:100px;height:100px;"
+        onclick="updateCoffee()";
+      >
+    </div>
+    <!-- <button type="button" onclick="updateCoffee()">Brew Coffee!</button> -->
+</body>
+</html>
